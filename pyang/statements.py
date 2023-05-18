@@ -348,7 +348,7 @@ _valid_deviations = {
     'max-elements':['leaf-list', 'list'],
     'must':['leaf', 'choice', 'container', 'list', 'leaf-list'],
     'unique':['list'],
-    'if-feature':['container']
+    'if-feature':['container', 'leaf', 'leaf-list', 'list', 'choice', 'case', 'anydata', 'anyxml', 'uses', 'rpc', 'action', 'notification', 'augment', 'identity', 'feature', 'enum', 'bit']
 }
 
 ### Validation
